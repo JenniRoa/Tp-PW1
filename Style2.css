@@ -1,0 +1,50 @@
+* {
+    font-size: 108%;
+}
+
+h1 {
+    padding-right: 20%;
+    font-size: 350%;
+}
+
+header {
+
+    background: darkmagenta;
+    
+    padding: 5%;
+    margin: 5%;
+}
+
+body {
+    background: linear-gradient(to left, darkmagenta, whitesmoke);
+    
+}
+
+
+
+p {
+    background-color: darkmagenta;
+   
+    font-size: 123%;
+    color: aliceblue;
+    padding-right: 20%;
+    
+}
+
+ul {
+    margin-left: 5%;
+    
+}
+
+div {
+    margin-left: 7%;
+}
+
+h2 {
+    font-size: 200%;
+    
+}
+
+textarea {
+    width: 50%;
+}
