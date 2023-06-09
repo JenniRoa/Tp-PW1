@@ -1,0 +1,78 @@
+* {
+    font-size: 108%;
+}
+
+h1 {
+    padding-right: 20%;
+    font-size: 350%;
+}
+
+header {
+
+    background: darkmagenta;
+    
+    padding: 5%;
+    margin: 5%;
+}
+
+body {
+    background: linear-gradient(to left, darkmagenta, whitesmoke);
+    
+}
+
+
+#Excepcion {
+    background-color: darkmagenta;
+   
+    font-size: 123%;
+    color: aliceblue;
+    padding-right: 20%;
+    
+}
+
+ul {
+    margin-left: 5%;
+    
+}
+
+div {
+    margin-left: 7%;
+}
+
+h2 {
+    font-size: 200%;
+    
+}
+
+textarea {
+    width: 50%;
+}
+
+/* .submit {
+    
+    margin-bottom: 25%;
+
+} */
+
+.Espacio {
+    margin-top: 3%;
+}
+
+.mb-3 {
+    width: 50%;
+    margin-top: 5%;
+    /* padding-bottom: 1.5%; */
+}
+
+.col-sm-7 > .form-control {
+    width: 40%;
+}
+
+.row {
+    margin-top: 5%;
+}
+
+.col-md-6 {
+    margin-top: 5%;
+}
+

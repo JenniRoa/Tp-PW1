@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" type="text/css" href="P7.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <img src="photo_2023-04-27_18-42-04.jpg" alt="Foto de Jennifer" width="200" height="200">
+
+        <h1 style="float: right;"> Curriculum Vitae</h1>
+
+    </header> 
+    
+    <section>
+        
+            <ul> <p id="Excepcion"> Datos</p>
+                <li><b>Nombre:</b> Jennifer Yazmin Roa</li>
+                <li><b>Edad:</b> 29</li>
+                <li><b>Disponibilidad:</b> Full time</li>
+                
+            </ul>
+        
+            <ul> <p id="Excepcion"> Formación Académica</p>
+                <li> Escuela EEM n°5/ <em>Bachiller en Ciencias Naturales</em> </li>
+                <li> Auxiliar de Farmacia</li>
+                <li> Operador de PC</li>
+                <li> Acompañante terapeutico</li>
+                <li> Tecnicatura en Tecnologías Web <em>(en curso)</em> </li>
+                
+            </ul>
+        
+            <ul> <p id="Excepcion"> Habilidades y Conocimientos</p>
+                <li>Manejo de programas de Ofimática</li>
+                <li>Inglés básico</li>
+                <li>C básico</li>
+                
+            </ul>
+        
+            <ul> <p id="Excepcion"> Experiencia Laboral</p>
+                <li>Atención al cliente en un kiosco</li>
+                <li>Profesora Particular de química</li>
+                <li>Reevendedora de productos varios</li>
+                <li>Ayudante de cátedra de Psicología General UBA</li>
+                
+            </ul>
+        
+        
+
+    </section>
+
+    <footer>
+        
+        <ul> <p id="Excepcion"> Datos de Contacto</p>
+            <li><b>Domicilio:</b> <a href="https://www.bing.com/maps?osid=e372694c-5550-496b-89b0-af61fa5259dc&cp=-34.660458~-58.768906&lvl=13.21&pi=0&v=2&sV=2&form=S00027">Ubicación</a> </li>
+            <li><b>Teléfono:</b> <a href="tel:01126522626" >Llamame</a></li>
+            <li><b>Email:</b> <a href="mailto:jenni26inf@gmail.com">Escribime</a> </li>
+            
+        </ul>
+    </footer>
+
+    <div class="Espacio">
+
+        <h2> Contactame </h2>
+    <form action="/action_page.php">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required><br><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" required><br><br>
+        <p>Sugerencias/Comentarios:</p>       
+        <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Escribir un comentario"></textarea>
+        <input type="submit" value="Enviar">
+        
+            
+
+    </form>
+
+    </div>
+<div class="Espacio">
+    <h2>Ofertas Laborales</h2>
+    <div class="mb-3">
+        <label for="Empresa" class="form-label">Nombre de la empresa:</label>
+        <input type="text" class="form-control" id="Empresa" placeholder="Ingrese nombre de la empresa" required>
+    </div>
+    <div class="col-md-6">            
+        <div class="row g-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Ingrese Provincia" aria-label="Provincia">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Ingrese Localidad" aria-label="Localidad">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Ingrese CP" aria-label="Código Postal">
+            </div>
+        </div>            
+    </div>
+    
+    <div class="mb-3">
+        <label for="validationCustom03" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="validationCustom03" placeholder="name@example.com" required>
+        <div class="invalid-feedback">
+          Por favor, escriba un email válido.
+        </div>
+      </div>
+    <div>
+        <div class="container">
+            <form id="formContainer">
+                <div class="mb-3">
+                    <label for="sueldoMinimo" class="form-label">Sueldo Mínimo</label>
+                    <input type="number" id="sueldoMinimo" class="form-control" placeholder="Ingrese el sueldo mínimo" required>
+                </div>
+                <div class="mb-3">
+                    <label for="tipoMoneda" class="form-label">Tipo de Moneda</label>
+                    <select id="tipoMoneda" class="form-select" required>
+                        <option value="peso">Peso</option>
+                        <option value="dolar">Dólar</option>
+                        <option value="euro">Euro</option>
+                    </select>                    
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Se adjunta información sobre el puesto ofrecido</label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+                <button type="submit" id="submitButton" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    
+</div>
+
+<div id="dataContainer" class="mt-4">
+    <h3>Datos ingresados:</h3>
+    <ul id="dataList"></ul>
+</div>
+
+<script src="P7.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+</body>
+</html>
